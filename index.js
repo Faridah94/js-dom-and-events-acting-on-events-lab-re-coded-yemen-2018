@@ -28,11 +28,11 @@ document.querySelector('input').value = "";
 }
 
 function clearEmployeeListOnLinkClick(){
-var W = document.querySelector('.employee-list');
-  var fc = W.firstChild;
-
-  let button = document.querySelector('a');
-
+  let ul = document.querySelector('ul')
+    let button = document.querySelector('a');
+     
     button.addEventListener('click',function(){
-    W.innerHTML="";
-}
+     ul.innerHTML="";
+     
+    })
+
