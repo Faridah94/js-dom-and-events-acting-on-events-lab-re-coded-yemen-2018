@@ -30,7 +30,10 @@ document.querySelector('input').value = "";
 function clearEmployeeListOnLinkClick(){
 var W = document.querySelector('.employee-list');
   var fc = W.firstChild;
-
+  
+  let button = document.querySelector('a');
+     
+    button.addEventListener('click',function(){
   while( fc ) {
       W.removeChild( fc );
       fc = W.firstChild;
