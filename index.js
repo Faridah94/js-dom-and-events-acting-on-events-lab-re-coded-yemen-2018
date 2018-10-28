@@ -28,11 +28,11 @@ document.querySelector('input').value = "";
 }
 
 function clearEmployeeListOnLinkClick(){
-  let list = document.querySelector('ul')
+  let list = document.querySelector('.employee-list')
     let button = document.querySelector('a');
 
     button.addEventListener('click',function(){
-     ul.innerHTML="";
+     list.innerHTML="";
 
     })
   }
