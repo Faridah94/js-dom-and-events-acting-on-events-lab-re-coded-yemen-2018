@@ -34,5 +34,5 @@ var W = document.querySelector('.employee-list');
   let button = document.querySelector('a');
 
     button.addEventListener('click',function(){
-W .innerHTML="";
+    W.innerHTML="";
 }
