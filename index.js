@@ -30,9 +30,9 @@ document.querySelector('input').value = "";
 function clearEmployeeListOnLinkClick(){
   let ul = document.querySelector('ul')
     let button = document.querySelector('a');
-     
+
     button.addEventListener('click',function(){
      ul.innerHTML="";
-     
-    })
 
+    })
+  }
